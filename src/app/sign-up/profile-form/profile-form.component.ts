@@ -47,7 +47,7 @@ export class ProfileFormComponent {
   onSubmit(event: SubmitEvent) {
     event.preventDefault();
     submit(this.form, async data => {
-      console.log('Form submitted:', data);
+      console.log('Form submitted:', data().value());
       // Return undefined if submission is successful
       // Return validation errors if there are server-side errors
       return undefined;
