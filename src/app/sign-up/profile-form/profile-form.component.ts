@@ -7,7 +7,7 @@ import { createPreferencesModel, buildPreferencesSection, Preferences } from '..
 import { AccountFormComponent } from '../../account/account-form/account-form.component';
 import { AddressFormComponent } from '../../shipping/address-form/address-form.component';
 import { PreferencesFormComponent } from '../../account/preferences-form/preferences-form.component';
-import { JsonPipe } from '@angular/common';
+import { DebugPanelComponent } from '../../shared/debug-panel/debug-panel.component';
 
 // Profile form model interface
 export interface Profile {
@@ -24,7 +24,7 @@ export interface Profile {
     AccountFormComponent,
     AddressFormComponent,
     PreferencesFormComponent,
-    JsonPipe
+    DebugPanelComponent
   ],
 })
 export class ProfileFormComponent {
