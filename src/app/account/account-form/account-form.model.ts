@@ -16,9 +16,9 @@ export function createAccountModel() {
 }
 
 // Form builder for account fields
-export function buildAccountSection(account: SchemaPathTree<Account>) {
-  required(account.firstName, { message: 'First name is required' });
-  required(account.lastName, { message: 'Last name is required' });
+export function buildAccountSection(a: SchemaPathTree<Account>) {
+  required(a.firstName, { message: 'First name is required' });
+  required(a.lastName, { message: 'Last name is required' });
 }
 
 

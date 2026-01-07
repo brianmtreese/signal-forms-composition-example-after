@@ -14,7 +14,7 @@ export function createPreferencesModel() {
 }
 
 // Form builder for preferences fields
-export function buildPreferencesSection(preferences: SchemaPathTree<Preferences>) {
+export function buildPreferencesSection(p: SchemaPathTree<Preferences>) {
   // No local validation for preferences
 }
 

@@ -12,6 +12,5 @@ export class DebugPanelComponent {
   readonly form = input.required<FieldState<unknown>>();
   readonly formValue = computed(() => this.form().value());
   readonly formValid = computed(() => this.form().valid());
-  readonly formErrors = computed(() => this.form().errors());
 }
 

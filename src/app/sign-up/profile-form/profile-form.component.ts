@@ -10,7 +10,7 @@ import { PreferencesFormComponent } from '../../account/preferences-form/prefere
 import { DebugPanelComponent } from '../../shared/debug-panel/debug-panel.component';
 
 // Profile form model interface
-export interface Profile {
+interface Profile {
   account: Account;
   shippingAddress: Address;
   preferences: Preferences;
