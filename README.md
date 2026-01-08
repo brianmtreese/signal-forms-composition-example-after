@@ -59,3 +59,9 @@ sign-up/
 npm install
 ng serve
 ```
+
+---
+
+## Related Resources
+- 🎥 **YouTube Tutorial**: [https://youtu.be/hgy3t9mFmuc](https://youtu.be/hgy3t9mFmuc)
+- 🟥 **Before Version (Pre–Signal Forms)**: [https://github.com/brianmtreese/signal-forms-composition-example-before](https://github.com/brianmtreese/signal-forms-composition-example-before)
